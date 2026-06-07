@@ -8,13 +8,10 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
   vite: {
-    base: "/Portfolio_Nguyen_Dinh_Truong/",
+    base: "/",
   },
   nitro: false,
   tanstackStart: {
-    router: {
-      basepath: "/Portfolio_Nguyen_Dinh_Truong",
-    },
     spa: {
       enabled: true,
       prerender: {
